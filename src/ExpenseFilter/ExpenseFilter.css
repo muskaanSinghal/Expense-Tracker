@@ -1,0 +1,25 @@
+.filter-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 5px solid red; */
+  width: 100%;
+  padding: 25px;
+}
+
+.filter-container--label {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.filter-container--input {
+  outline: none;
+  border-radius: 30px;
+  width: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+}

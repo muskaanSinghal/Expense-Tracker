@@ -1,0 +1,11 @@
+.date {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 13vw;
+  border: 5px double white;
+  color: white;
+  background-color: black;
+  box-shadow: 5px 5px 5px rgb(66, 65, 65);
+}

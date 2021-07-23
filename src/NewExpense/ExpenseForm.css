@@ -1,0 +1,69 @@
+.expense-form--controls {
+  border: 1px dotted red;
+  height: 30vh;
+  width: 75vw;
+  margin: 30px 0 30px 0;
+  background-color: rgba(91, 179, 179, 0.6);
+  display: grid;
+  grid-template-columns: auto auto;
+}
+/* * {
+  border: 5px solid red;
+} */
+
+.expense-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.expense-form--label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.expense-form--input {
+  font-size: 15px;
+  color: black;
+  padding: 10px;
+}
+
+.expense-form--button {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  /* border: 5px dotted red; */
+  width: 100%;
+  grid-column: 2 / span 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.expense-button {
+  width: 15vw;
+  height: 5vh;
+  background-color: rgba(22, 22, 39, 0.6);
+  color: white;
+  font-weight: bold;
+}
+
+.beforeClicked {
+  height: 15vh;
+  background-color: rgba(91, 179, 179, 0.6);
+  border-radius: 30px;
+  margin: 15px;
+}
+
+.expense-form--Only-Button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  /* width: 100%; */
+  /* margin: 30px; */
+  background-color: rgba(91, 179, 179, 0.6);
+  border-radius: 30px;
+}
